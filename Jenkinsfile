@@ -10,7 +10,7 @@ pipeline{
 
 		stage('Test'){
 			steps{
-				sh 'echo Test is successful'
+				sh 'echo Test is successful calling from ${JOB_NAME}'
 }
 }
     }
